@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--changed title from "Hori" to Horiseon Social Solution Services-->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon Social Solution Services</title>
+</head>
+
+<body>
+    <!--swapped div element for semantically proper header element
+    added nav element preceding header element to comport with project requirements-->
+        <nav>    
+            <header>Horiseon
+                <h1 class="header-h1">
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </h1>
+                <h1 class="header-h1">
+                    <a href="#online-reputation-management">Online Reputation Management</a> 
+                </h1>
+                <h1 class="header-h1">
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </h1>
+            </header>
+        </nav>
+
+
+    <!--changed div element to section element
+    added a span role element to add alt text to the hero class image without having to alter the hero class CSS formatting-->
+    <section class="hero">
+        <span class="hero" role="img" aria-label="Digital Marketing Meeting"></span>
+    </section>
+
+    <!--added main element, section elements, nav elements, for search-engine, online-rep, and media-marketing sections-->
+    <main class="content">
+        <section class="primary">
+            <nav id="search-engine-optimization">
+                <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/search-engine-optimization.jpg" class="float-left" alt-text="Search Engine Optimization"/>
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </nav>
+        </section>
+
+        <section class="primary">
+            <nav id="online-reputation-management">
+                <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/online-reputation-management.jpg" class="float-right" alt-text="Online Reputation Management"/>
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </nav>
+        </section>
+
+        <section class="primary">
+            <nav id="social-media-marketing">
+                <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/social-media-marketing.jpg" class="float-left" alt-text="Social Media Marketing"/>
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </nav>
+        </section>
+    </main>
+
+    <!--added aside element and section elements to Lead Gen, Brand Aware, and Cost Manage section;
+    removed div elements -->
+    <aside class="benefits">
+        <section class="side">
+            <h3>Lead Generation</h3>
+            <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/lead-generation.png" alt-text="Lead Generation"/>
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </section>
+
+        <section class="side">
+            <h3>Brand Awareness</h3>
+            <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/brand-awareness.png" ; alt-text="Brand Awareness"/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </section>
+
+        <section class="side">
+            <h3>Cost Management</h3>
+            <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/cost-management.png" alt-text="Cost Management"/>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </section>
+    </aside>
+
+    <footer class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
+                &copy; 2024 Horiseon Social Solution Services, Inc.
+            </p>
+    </footer>
+</body>
+
+</html>
